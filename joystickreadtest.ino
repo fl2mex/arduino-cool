@@ -3,7 +3,7 @@
 // Date 10/08/23
 // Commit by Kaiden
 // - Cleaned up Code
-// - 
+// TODO: Set up enums for direction and state, and clean switch statements
 //
 //Date: 9/08/23
 //Wiring Instructions:
