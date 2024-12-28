@@ -99,8 +99,8 @@ void loop()
 
 void buttonCheck()
 {
-	// To Char: Static means it persists over unscope - every time buttonCheck() ends, all non-static items are unscoped
-	// For example, the read integer will be unscoped and reinitialised with digitalRead()
+	// To Char: Static means it persists over descope - every time buttonCheck() ends, all non-static items are descoped
+	// For example, the read integer will be descoped and reinitialised with digitalRead()
 	// Another way of working this is to have an integer that either takes an input and an output or a reference to an int so it is modifiable
 
 	static unsigned long time = 0, t0 = 0;
